@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-03T14:53:25.269Z",
+  "cause": "单一paused状态被悬停与焦点互相覆盖；滚动根主题在effect中设置晚于首次测量。",
+  "fix": "悬停与焦点分开后取逻辑或；根标记在layout effect设置，根滚动容器采用作用域relative定位。",
+  "rotation": {
+    "focusPause": {
+      "before": {
+        "focus": "后台运营",
+        "hover": false,
+        "selected": "后台运营"
+      },
+      "after": {
+        "focus": "后台运营",
+        "hover": false,
+        "selected": "后台运营"
+      },
+      "observedMsAtLeast": 20000
+    },
+    "resume": {
+      "before": {
+        "focus": "BODY",
+        "selected": "后台运营"
+      },
+      "after": {
+        "focus": "BODY",
+        "hover": false,
+        "positions": [
+          {
+            "class": "quiver qv-dark-hero",
+            "position": "static"
+          },
+          {
+            "class": "",
+            "position": "static"
+          },
+          {
+            "class": "qv-agent-chapter",
+            "position": "relative"
+          }
+        ],
+        "selected": "知识与报告"
+      }
+    },
+    "regression": "Hover and focus independently keep the five-second rotation paused; pointer leaving does not override keyboard focus."
+  },
+  "console": {
+    "logs": [],
+    "root": {
+      "attribute": "true",
+      "position": "relative"
+    }
+  }
+}

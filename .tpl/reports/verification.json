@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-11-03T13:31:04.868Z",
+  "checkedAt": "2026-11-03T14:53:25.279Z",
   "sourceCommit": null,
-  "sourceDigest": "6e63d1502dc7ebd9f5ee907d7c4defdcd7678cef70b734269c53cbe2923f1228",
+  "sourceDigest": "6a79012f38e4ffe1c175c6b95648269efd7719a57a6d08413b8f839278c91c53",
   "environment": {
     "platform": "linux (local WSL; Linux filesystem)",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-11-03T13:29:46.972Z",
-      "finishedAt": "2026-11-03T13:29:48.183Z"
+      "startedAt": "2026-11-03T14:51:40.958Z",
+      "finishedAt": "2026-11-03T14:51:42.303Z"
     },
     {
       "id": "typecheck",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-11-03T13:29:48.187Z",
-      "finishedAt": "2026-11-03T13:29:50.264Z"
+      "startedAt": "2026-11-03T14:51:42.308Z",
+      "finishedAt": "2026-11-03T14:51:44.518Z"
     },
     {
       "id": "lint",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-11-03T13:29:50.267Z",
-      "finishedAt": "2026-11-03T13:29:53.274Z"
+      "startedAt": "2026-11-03T14:51:44.522Z",
+      "finishedAt": "2026-11-03T14:51:47.920Z"
     },
     {
       "id": "test",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-11-03T13:29:53.278Z",
-      "finishedAt": "2026-11-03T13:29:54.139Z"
+      "startedAt": "2026-11-03T14:51:47.923Z",
+      "finishedAt": "2026-11-03T14:51:48.882Z"
     },
     {
       "id": "build",
@@ -77,15 +77,15 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-11-03T13:29:54.141Z",
-      "finishedAt": "2026-11-03T13:30:15.674Z"
+      "startedAt": "2026-11-03T14:51:48.886Z",
+      "finishedAt": "2026-11-03T14:52:07.433Z"
     }
   ],
   "services": [
     {
       "id": "web",
       "status": "passed",
-      "checkedAt": "2026-11-03T13:30:16.668Z",
+      "checkedAt": "2026-11-03T14:52:08.467Z",
       "stopped": true
     }
   ],
@@ -95,6 +95,7 @@
     "原站有两个法线光照画布和一个照片放大镜画布，未发现视频，未以生成图片替换原素材。",
     "默认中文，字体与字号遵循模板规范，因此与原站大衬线标题存在有意差异。三项政策按本地演示行为编写；表单不发送、不保存或创建预约。",
     "参考设计与素材未取得商业再分发许可，listed=false。尚未发布源码ZIP，未部署，宿主联调另行记录。",
-    "完整三端原站曲线、光照、循环暂停恢复、真实系统减少动态效果与宿主设备框尚未全部验收，不声称完整复刻完成。"
+    "完整三端原站曲线、光照、循环暂停恢复、真实系统减少动态效果与宿主设备框尚未全部验收，不声称完整复刻完成。",
+    "交互回归：实际指针拖拽、连续分页、短拖回弹或循环焦点暂停的证据见interaction-regressions.json。motion.json仍为incomplete，未用这些局部通过替代全部原站三端精确曲线与系统减少动态效果验收。"
   ]
 }
