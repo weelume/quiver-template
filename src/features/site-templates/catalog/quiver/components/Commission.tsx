@@ -1,0 +1,8 @@
+'use client'
+import {useState,type FormEvent} from 'react'
+import {asset,art,brand,text} from '../config'
+import {ui} from '../content/ui'
+import {useQuiver} from '../context'
+import {RelitScene} from './RelitScene'
+import {EnterHeading} from './Motion'
+export function Commission(){const{t}=useQuiver(),[done,setDone]=useState(false);function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();if(!event.currentTarget.reportValidity())return;setDone(true);console.debug('[quiver:commission] 本地校验完成',{network:false,persistence:false})}return <section className="qv-commission"><RelitScene colorMap={asset(art.profile)} normalMap={asset(art.profileNormal)} align="right" label={t(ui.portraitDescription)} errorLabel={t(ui.visualError)} retryLabel={t(ui.retry)} className="qv-commission-scene"><div className="qv-container"><div className="qv-commission-copy"><p className="qv-kicker">12 · {t(ui.contact)}</p><EnterHeading>{t(ui.commissionTitle)}</EnterHeading><p>{t(ui.commissionCopy)}</p><form onSubmit={submit} onChange={()=>setDone(false)}><label htmlFor="quiver-commission-email">{t(ui.email)}</label><div className="qv-commission-input"><input id="quiver-commission-email" name="email" type="email" required autoComplete="email" maxLength={254} placeholder={t(ui.emailPlaceholder)}/><button type="submit" className="qv-button">{t(ui.strategyCall)}</button></div><p className="qv-form-note">{t(ui.demoForm)}</p>{done&&<p role="status">{t(ui.validated)}</p>}</form><p className="qv-caption">{t(brand.hours)} · {t(text('旧金山','San Francisco'))}</p></div></div><p className="qv-light-hint" aria-hidden="true">{t(ui.moveLight)}</p></RelitScene></section>}

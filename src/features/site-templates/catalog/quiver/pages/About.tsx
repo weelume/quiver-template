@@ -1,0 +1,13 @@
+'use client'
+import type {SiteTemplatePageProps} from '../../../types'
+import {asset,art,text} from '../config'
+import {useQuiver} from '../context'
+import {headings} from '../content/headings'
+import {story,principles,team} from '../content/about'
+import {Shell} from '../components/Shell'
+import {PageIntro} from '../components/PageIntro'
+import {SectionHeading} from '../components/SectionHeading'
+import {ClientsWall} from '../components/ClientsWall'
+import {Reviews} from '../components/Reviews'
+function Content(){const{t}=useQuiver();return <><PageIntro eyebrow={text('关于','About')} title={headings.about} intro={text('{{brand}} 是一家位于旧金山的小型工作室。找到团队反复处理的工作，为每项任务构建智能体，并在投入运行后每周衡量。','{{brand}} is a small studio in San Francisco. We find the work your team repeats, build one agent for each job and run it in production, measured every week.')}/><div className="qv-container"><img className="qv-about-cover" src={asset(art.buildTeam)} alt={t(text('工作室的三位伙伴在笔记本电脑前工作','Three people working at laptops in the studio'))}/></div><section className="qv-section qv-container"><SectionHeading eyebrow={text('工作室故事','The story')} title={text('七年时间 一次专注一项工作','Seven years, one job at a time.')}/><ol className="qv-story">{story.map((item,i)=><li key={item.year}><strong>{item.year}</strong><p>{t(item.body)}</p><span className="qv-caption">{String(i+1).padStart(2,'0')} / {String(story.length).padStart(2,'0')}</span></li>)}</ol></section><section className="qv-section qv-container"><SectionHeading eyebrow={text('原则','Principles')} title={text('构建时遵循的三条规则','Three rules we build by.')}/><div className="qv-principles">{principles.map((item,i)=><article key={item.title.en}><p className="qv-caption">0{i+1}</p><h3>{t(item.title)}</h3><p>{t(item.body)}</p><span aria-hidden="true">Q</span></article>)}</div></section><section className="qv-section qv-container"><SectionHeading eyebrow={text('团队','The people')} title={text('智能体背后的伙伴','The people behind the agents.')} description={text('四位伙伴，同一间工作室。你会直接与构建智能体的人沟通。','Four people, one floor. You will talk to the person who builds your agent, never an account manager.')}/><div className="qv-team-grid">{team.map((person,i)=><article key={person.name}><img src={asset(person.image)} alt={`${person.name} · ${t(person.role)}`}/><p className="qv-caption">0{i+1} · {t(person.role)}</p><h3>{person.name}</h3><p>{t(person.bio)}</p><div className="qv-tags">{person.skills.map(skill=><span key={skill.en}>{t(skill)}</span>)}</div><a className="qv-text-link" href={'mailto:'+person.email}>{person.email}</a></article>)}</div></section><ClientsWall/><Reviews/></>}
+export default function About(props:SiteTemplatePageProps){return <Shell {...props} commission><Content/></Shell>}

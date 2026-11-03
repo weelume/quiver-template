@@ -1,0 +1,139 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与联系方式",
+      "description": "修改品牌与联系方式后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/config.ts",
+          "kind": "file",
+          "purpose": "品牌与联系方式"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "中英文内容",
+      "description": "修改中英文内容后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/content",
+          "kind": "directory",
+          "purpose": "中英文内容"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题与三端布局",
+      "description": "修改主题与三端布局后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/theme.css",
+          "kind": "file",
+          "purpose": "主题与三端布局"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "interaction",
+      "title": "公共交互",
+      "description": "修改公共交互后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/components",
+          "kind": "directory",
+          "purpose": "公共交互"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面组合",
+      "description": "修改页面组合后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "routing",
+      "title": "页面注册",
+      "description": "修改页面注册后验证受影响页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/quiver/meta.ts",
+          "kind": "file",
+          "purpose": "页面注册"
+        }
+      ],
+      "constraints": [
+        "双语同步并保留可访问性",
+        "不新增未经批准的依赖，不发送或保存演示表单"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    }
+  ]
+}

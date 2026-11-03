@@ -1,0 +1,26 @@
+'use client'
+import {useId,useState} from 'react'
+import {AnimatePresence,motion,useReducedMotion} from 'framer-motion'
+import {text} from '../config'
+import {useQuiver} from '../context'
+import {headings} from '../content/headings'
+import {processStages,blueprintLabels} from '../content/process'
+import {SectionHeading} from './SectionHeading'
+const rooms=[{x:35,y:80,w:245,h:175},{x:285,y:80,w:210,h:175},{x:500,y:80,w:160,h:365},{x:35,y:260,w:460,h:185}]
+export function Process(){
+ const{t}=useQuiver(),[active,setActive]=useState(0),reduce=useReducedMotion(),id=useId(),step=processStages[active]
+ if(!step)return null
+ return <section className="qv-section qv-process"><div className="qv-container qv-process-grid"><div className="qv-blueprint"><svg viewBox="0 0 720 500" role="img" aria-label={t(blueprintLabels.label)}>
+  <defs><pattern id={`${id}-hatch`} width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" x2="0" y2="5" stroke="currentColor" strokeWidth=".4"/></pattern><radialGradient id={`${id}-glow`}><stop stopColor="white" stopOpacity=".8"/><stop offset="1" stopColor="white" stopOpacity="0"/></radialGradient></defs>
+  <rect x="28" y="73" width="640" height="380" fill={`url(#${id}-hatch)`} stroke="currentColor" strokeWidth="1.8"/>
+  {rooms.map((room,i)=><g key={i}><rect x={room.x} y={room.y} width={room.w} height={room.h} fill={i<active?'var(--qv-plan-visited)':'var(--qv-paper)'} stroke="currentColor" strokeWidth="1.2"/><text x={room.x+14} y={room.y+23} className="qv-plan-number">{String(i+1).padStart(2,'0')}</text><text x={room.x+14} y={room.y+40}>{t(processStages[i].title)}</text><text x={room.x+14} y={room.y+55} className="qv-plan-small">{t(processStages[i].period)}</text></g>)}
+  <g className="qv-plan-furniture"><rect x="175" y="208" width="18" height="18"/><rect x="210" y="208" width="18" height="18"/><rect x="245" y="208" width="18" height="18"/><rect x="340" y="210" width="76" height="15"/><rect x="520" y="275" width="16" height="58"/><circle cx="415" cy="312" r="20"/><circle cx="415" cy="312" r="3"/></g>
+  <g className="qv-plan-doors"><path d="M35 150v40M285 150v40M500 150v40M500 345v40" stroke="var(--qv-paper)" strokeWidth="7"/><path d="M35 150h40a40 40 0 0 1-40 40M285 150h40a40 40 0 0 1-40 40M500 150h40a40 40 0 0 1-40 40M500 345h-40a40 40 0 0 0 40 40" fill="none" stroke="currentColor" strokeWidth=".8"/></g>
+  <path d="M8 170H585V365H155" fill="none" stroke="var(--qv-muted)" strokeWidth=".8" strokeDasharray="2 4"/>
+  <motion.path d="M8 170H585V365H155" fill="none" stroke="var(--qv-accent)" strokeWidth="2" initial={false} animate={{pathLength:step.route}} transition={{duration:reduce?0:.8,ease:[.22,1,.36,1]}}/>
+  <motion.g initial={false} animate={{x:step.x,y:step.y}} transition={{duration:reduce?0:.8,ease:[.22,1,.36,1]}}><circle r="85" fill={`url(#${id}-glow)`}/><circle r="4" fill="var(--qv-accent)"/><rect x="12" y="-51" width="128" height="49" fill="var(--qv-ink)"/><text x="24" y="-31" fill="var(--qv-paper)" className="qv-plan-tooltip">{String(active+1).padStart(2,'0')} · {t(step.title)}</text><text x="24" y="-15" fill="var(--qv-paper)" className="qv-plan-small">{t(step.period)}</text></motion.g>
+  <text x="7" y="150" transform="rotate(-90 7 150)" className="qv-plan-small">{t(blueprintLabels.entrance)}</text>
+  <g className="qv-plan-legend"><text x="47" y="410" className="qv-plan-small">{t(blueprintLabels.legend)}</text><circle cx="51" cy="426" r="3" fill="var(--qv-accent)"/><text x="62" y="429" className="qv-plan-small">{t(blueprintLabels.you)}</text><path d="M170 426h22" stroke="var(--qv-accent)" strokeWidth="2"/><text x="198" y="429" className="qv-plan-small">{t(blueprintLabels.route)}</text><rect x="262" y="420" width="10" height="10" fill="none" stroke="currentColor"/><text x="280" y="429" className="qv-plan-small">{t(blueprintLabels.step)}</text></g>
+  <g className="qv-plan-scale"><path d="M525 430h70m-70-4v8m35-8v8m35-8v8" fill="none" stroke="currentColor" strokeWidth=".8"/><text x="525" y="444" className="qv-plan-small">0</text><text x="558" y="444" className="qv-plan-small">5</text><text x="590" y="444" className="qv-plan-small">10 M</text><circle cx="635" cy="423" r="13" fill="none" stroke="currentColor"/><path d="m635 414 4 15-4-3-4 3z" fill="currentColor"/><text x="632" y="405" className="qv-plan-small">N</text></g>
+ </svg></div><div className="qv-process-copy"><SectionHeading eyebrow={text('05 · 工作流程','05 · How we work')} title={headings.process} description={headings.processIntro}/><AnimatePresence mode="wait" initial={false}><motion.div className="qv-process-current" key={active} initial={{y:reduce?0:12,opacity:0}} animate={{y:0,opacity:1}} exit={{y:reduce?0:-12,opacity:0}} transition={{duration:reduce?0:.25}} aria-live="polite"><span>{String(active+1).padStart(2,'0')}</span><div><h3>{t(step.title)} <small>{t(step.period)}</small></h3><p>{t(step.description)}</p></div></motion.div></AnimatePresence><div className="qv-floor-controls" role="group" aria-label={t(blueprintLabels.label)}>{processStages.map((item,i)=><button key={item.title.en} type="button" aria-pressed={active===i} className={active===i?'is-active':''} onClick={()=>setActive(i)}><span>{String(i+1).padStart(2,'0')}</span><strong>{t(item.title)}</strong></button>)}</div></div></div></section>
+}

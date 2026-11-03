@@ -1,0 +1,10 @@
+'use client'
+import {asset,text} from '../config'
+import {useQuiver} from '../context'
+import {metrics} from '../content/common'
+import {headings} from '../content/headings'
+import {ui} from '../content/ui'
+import {SectionHeading} from './SectionHeading'
+import {PhotoLens} from './PhotoLens'
+import {Count} from './Motion'
+export function Metrics(){const{t,locale}=useQuiver();return <section className="qv-section qv-metrics" aria-label={t(headings.metrics)}><div className="qv-container"><SectionHeading eyebrow={text('08 · 数据','08 · The numbers')} title={headings.metrics} description={headings.metricsIntro}/><div className="qv-metrics-gallery"><PhotoLens src={asset('RQGrwUJccNUEUkzCxfYpHAsGBQw.webp')} label={t(text('周五复盘照片，可用指针或方向键移动放大镜','Friday review photo; move the magnifier with the pointer or arrow keys'))}/><p className="qv-caption">08 · {t(text('周五复盘 · 旧金山工作室','Friday review · Studio, San Francisco'))}</p></div><div className="qv-metrics-list">{metrics.map((metric,i)=><article key={metric.label.en}><span className="qv-caption">{String(i+1).padStart(2,'0')}</span><Count value={metric.value} prefix={metric.prefix??''} suffix={t(metric.suffix)} locale={locale}/><h3>{t(metric.label)}</h3><span className="qv-caption">{t(text('记录于 2026 年 9 月','Measured · Sep 2026'))}</span></article>)}</div><p className="qv-form-note">{t(ui.demoMetric)}</p></div></section>}

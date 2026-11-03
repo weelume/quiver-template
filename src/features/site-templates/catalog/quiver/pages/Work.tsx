@@ -1,0 +1,15 @@
+'use client'
+import {useState} from 'react'
+import type {SiteTemplatePageProps} from '../../../types'
+import {text} from '../config'
+import {useQuiver} from '../context'
+import {headings} from '../content/headings'
+import {caseStudies} from '../content/work'
+import {services} from '../content/services'
+import {ui} from '../content/ui'
+import {Shell} from '../components/Shell'
+import {PageIntro} from '../components/PageIntro'
+import {WorkCards} from '../components/WorkCards'
+import {Reviews} from '../components/Reviews'
+function Content(){const{t}=useQuiver(),[industry,setIndustry]=useState('all'),[service,setService]=useState('all'),industries=[...new Map(caseStudies.map(item=>[item.category.en,item.category])).values()],visible=caseStudies.filter(item=>(industry==='all'||item.category.en===industry)&&(service==='all'||item.serviceSlug===service));return <><PageIntro eyebrow={text('07 · 案例簿','07 · Selected work')} title={headings.work} intro={text('为诊所、财务团队、商店、律所和销售团队构建并持续运行的智能体。每个案例都有它带来的变化。','Agents we built and still run, for clinics, finance teams, shops, law firms and sales floors. Every case has the number it moved.')}/><section className="qv-container qv-section qv-work-list"><div className="qv-work-filters"><fieldset><legend>{t(text('行业','Industry'))}</legend><div role="group" aria-label={t(text('按行业筛选','Filter by industry'))}><button type="button" aria-pressed={industry==='all'} onClick={()=>setIndustry('all')}>{t(ui.all)}</button>{industries.map(item=><button key={item.en} type="button" aria-pressed={industry===item.en} onClick={()=>setIndustry(item.en)}>{t(item)}</button>)}</div></fieldset><fieldset><legend>{t(text('服务','Service'))}</legend><div role="group" aria-label={t(text('按服务筛选','Filter by service'))}><button type="button" aria-pressed={service==='all'} onClick={()=>setService('all')}>{t(ui.all)}</button>{services.filter(item=>caseStudies.some(project=>project.serviceSlug===item.slug)).map(item=><button key={item.slug} type="button" aria-pressed={service===item.slug} onClick={()=>setService(item.slug)}>{t(item.title)}</button>)}</div></fieldset></div><p className="qv-work-count qv-caption" aria-live="polite">{visible.length} {t(text('组案例','case studies'))}</p>{visible.length?<WorkCards slugs={visible.map(item=>item.slug)}/>:<div className="qv-empty-results"><p>{t(ui.noResults)}</p><button className="qv-text-link" type="button" onClick={()=>{setIndustry('all');setService('all')}}>{t(ui.clearFilters)}</button></div>}</section><Reviews/></>}
+export default function Work(props:SiteTemplatePageProps){return <Shell {...props} commission><Content/></Shell>}

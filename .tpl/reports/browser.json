@@ -1,0 +1,3452 @@
+{
+  "checkedAt": "2026-11-03T13:31:02.825Z",
+  "layout": [
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 17232,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 6234,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "认识智能体"
+      ],
+      "height": 5018,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "精选案例"
+      ],
+      "height": 5246,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "六周时间四个阶段"
+      ],
+      "height": 5294,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/process",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "固定费用清晰预期"
+      ],
+      "height": 4344,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/pricing",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "为应用智慧而生的工作室"
+      ],
+      "height": 7383,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/about",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "预约一次策略交流"
+      ],
+      "height": 2242,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/book",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 4332,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "隐私政策"
+      ],
+      "height": 2940,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/privacy",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "使用条款"
+      ],
+      "height": 2918,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/terms",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Cookie 政策"
+      ],
+      "height": 2753,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/cookies",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "AI 策略"
+      ],
+      "height": 5030,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services/ai-strategy",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "智能体构建"
+      ],
+      "height": 5030,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services/agent-builds",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "工作流自动化"
+      ],
+      "height": 5030,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services/workflow-automation",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 5030,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services/voice-agents",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "团队培训"
+      ],
+      "height": 4035,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/services/ai-training",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "客服智能体"
+      ],
+      "height": 3993,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents/support-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "销售智能体"
+      ],
+      "height": 3993,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents/sales-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "财务智能体"
+      ],
+      "height": 3993,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents/finance-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 3993,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents/voice-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "研究智能体"
+      ],
+      "height": 3993,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/agents/research-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 3789,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "两天完成月末结账"
+      ],
+      "height": 3789,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work/ledgerly",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "随业务旺季一起成长的客服"
+      ],
+      "height": 3789,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work/oakline-home",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "一小时完成研究简报"
+      ],
+      "height": 3789,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work/vantage-legal",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "一分钟回应每一条线索"
+      ],
+      "height": 3789,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/work/brightpath-realty",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 17971,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 6660,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "认识智能体"
+      ],
+      "height": 5732,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "精选案例"
+      ],
+      "height": 4545,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "六周时间四个阶段"
+      ],
+      "height": 5235,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/process",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "固定费用清晰预期"
+      ],
+      "height": 4798,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/pricing",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "为应用智慧而生的工作室"
+      ],
+      "height": 7500,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/about",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "预约一次策略交流"
+      ],
+      "height": 2285,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/book",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 3982,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "隐私政策"
+      ],
+      "height": 3035,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/privacy",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "使用条款"
+      ],
+      "height": 3137,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/terms",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Cookie 政策"
+      ],
+      "height": 2941,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/cookies",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "AI 策略"
+      ],
+      "height": 4553,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services/ai-strategy",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "智能体构建"
+      ],
+      "height": 4522,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services/agent-builds",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "工作流自动化"
+      ],
+      "height": 4522,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services/workflow-automation",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 4459,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services/voice-agents",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "团队培训"
+      ],
+      "height": 3812,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/services/ai-training",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "客服智能体"
+      ],
+      "height": 4299,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents/support-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "销售智能体"
+      ],
+      "height": 4299,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents/sales-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "财务智能体"
+      ],
+      "height": 4299,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents/finance-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 4299,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents/voice-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "研究智能体"
+      ],
+      "height": 4299,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/agents/research-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 3497,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "两天完成月末结账"
+      ],
+      "height": 3435,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work/ledgerly",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "随业务旺季一起成长的客服"
+      ],
+      "height": 3528,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work/oakline-home",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "一小时完成研究简报"
+      ],
+      "height": 3465,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work/vantage-legal",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "一分钟回应每一条线索"
+      ],
+      "height": 3465,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/work/brightpath-realty",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 17548,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 7757,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "认识智能体"
+      ],
+      "height": 7056,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "精选案例"
+      ],
+      "height": 5609,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "六周时间四个阶段"
+      ],
+      "height": 5349,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/process",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "固定费用清晰预期"
+      ],
+      "height": 5609,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/pricing",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "为应用智慧而生的工作室"
+      ],
+      "height": 9215,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/about",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "预约一次策略交流"
+      ],
+      "height": 2520,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/book",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 4894,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "隐私政策"
+      ],
+      "height": 3100,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/privacy",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "使用条款"
+      ],
+      "height": 3132,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/terms",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Cookie 政策"
+      ],
+      "height": 2925,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/cookies",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "AI 策略"
+      ],
+      "height": 5043,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services/ai-strategy",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "智能体构建"
+      ],
+      "height": 5526,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services/agent-builds",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "工作流自动化"
+      ],
+      "height": 5014,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services/workflow-automation",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 4982,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services/voice-agents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "团队培训"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/services/ai-training",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "客服智能体"
+      ],
+      "height": 4291,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents/support-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "销售智能体"
+      ],
+      "height": 4319,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents/sales-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "财务智能体"
+      ],
+      "height": 4291,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents/finance-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 4291,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents/voice-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "研究智能体"
+      ],
+      "height": 4291,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/agents/research-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 3669,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "两天完成月末结账"
+      ],
+      "height": 3540,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work/ledgerly",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "随业务旺季一起成长的客服"
+      ],
+      "height": 3639,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work/oakline-home",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "一小时完成研究简报"
+      ],
+      "height": 3639,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work/vantage-legal",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "一分钟回应每一条线索"
+      ],
+      "height": 3610,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/work/brightpath-realty",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 17763,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 7806,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "认识智能体"
+      ],
+      "height": 6895,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/agents",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "精选案例"
+      ],
+      "height": 5666,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/work",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "预约一次策略交流"
+      ],
+      "height": 2746,
+      "relight": [],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/book",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 5024,
+      "relight": [],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "隐私政策"
+      ],
+      "height": 3273,
+      "relight": [],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/privacy",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "语音智能体"
+      ],
+      "height": 5095,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/services/voice-agents",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "研究智能体"
+      ],
+      "height": 4329,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/agents/research-agent",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "broken": [],
+      "clientWidth": 305,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 3768,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 305,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Mindsat work."
+      ],
+      "height": 17097,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Five ways weput AI to work."
+      ],
+      "height": 6278,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "The agents."
+      ],
+      "height": 5010,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Selected work."
+      ],
+      "height": 5330,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Six weeks, four rooms."
+      ],
+      "height": 5211,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/process",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Fixed prices, no surprises."
+      ],
+      "height": 4277,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/pricing",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "A studio for applied minds."
+      ],
+      "height": 7366,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/about",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Book a strategy call."
+      ],
+      "height": 2229,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/book",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Tell us the work you want gone."
+      ],
+      "height": 4374,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/contact",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Privacy policy."
+      ],
+      "height": 3136,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/privacy",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Terms of engagement."
+      ],
+      "height": 3207,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/terms",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Cookie policy."
+      ],
+      "height": 3011,
+      "relight": [],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/cookies",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "AI strategy"
+      ],
+      "height": 4949,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services/ai-strategy",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Agent builds"
+      ],
+      "height": 4945,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services/agent-builds",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Workflow automation"
+      ],
+      "height": 4918,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services/workflow-automation",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Voice agents"
+      ],
+      "height": 4918,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services/voice-agents",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Team training"
+      ],
+      "height": 3947,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/services/ai-training",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Support agent"
+      ],
+      "height": 4033,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents/support-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Sales agent"
+      ],
+      "height": 4060,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents/sales-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Finance agent"
+      ],
+      "height": 4033,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents/finance-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Voice agent"
+      ],
+      "height": 4033,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents/voice-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Research agent"
+      ],
+      "height": 4033,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/agents/research-agent",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "A front desk that never sleeps"
+      ],
+      "height": 3861,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work/northwind-dental",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Month-end in two days"
+      ],
+      "height": 3829,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work/ledgerly",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Support that scales with the season"
+      ],
+      "height": 3861,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work/oakline-home",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Research briefs in an hour"
+      ],
+      "height": 3829,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work/vantage-legal",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "broken": [],
+      "clientWidth": 1425,
+      "h1": [
+        "Every lead answered in a minute"
+      ],
+      "height": 3829,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 1425,
+      "url": "http://localhost:3065/en/work/brightpath-realty",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Mindsat work."
+      ],
+      "height": 17938,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Five ways weput AI to work."
+      ],
+      "height": 6694,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "The agents."
+      ],
+      "height": 5787,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Selected work."
+      ],
+      "height": 4656,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Six weeks, four rooms."
+      ],
+      "height": 5247,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/process",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Fixed prices, no surprises."
+      ],
+      "height": 4766,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/pricing",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "A studio for applied minds."
+      ],
+      "height": 7545,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/about",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Book a strategy call."
+      ],
+      "height": 2292,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/book",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Tell us the work you want gone."
+      ],
+      "height": 4033,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/contact",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Privacy policy."
+      ],
+      "height": 3449,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/privacy",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Terms of engagement."
+      ],
+      "height": 3520,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/terms",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Cookie policy."
+      ],
+      "height": 3324,
+      "relight": [],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/cookies",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "AI strategy"
+      ],
+      "height": 4515,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services/ai-strategy",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Agent builds"
+      ],
+      "height": 4543,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services/agent-builds",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Workflow automation"
+      ],
+      "height": 4458,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services/workflow-automation",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Voice agents"
+      ],
+      "height": 4515,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services/voice-agents",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Team training"
+      ],
+      "height": 3780,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/services/ai-training",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Support agent"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents/support-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Sales agent"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents/sales-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Finance agent"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents/finance-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Voice agent"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents/voice-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Research agent"
+      ],
+      "height": 4371,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/agents/research-agent",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "A front desk that never sleeps"
+      ],
+      "height": 3677,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work/northwind-dental",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Month-end in two days"
+      ],
+      "height": 3646,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work/ledgerly",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Support that scales with the season"
+      ],
+      "height": 3646,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work/oakline-home",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Research briefs in an hour"
+      ],
+      "height": 3646,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work/vantage-legal",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "broken": [],
+      "clientWidth": 819,
+      "h1": [
+        "Every lead answered in a minute"
+      ],
+      "height": 3646,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 819,
+      "url": "http://localhost:3065/en/work/brightpath-realty",
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Mindsat work."
+      ],
+      "height": 17725,
+      "relight": [
+        "loading",
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Five ways weput AI to work."
+      ],
+      "height": 7811,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "The agents."
+      ],
+      "height": 7187,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Selected work."
+      ],
+      "height": 5880,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Six weeks, four rooms."
+      ],
+      "height": 5347,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/process",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Fixed prices, no surprises."
+      ],
+      "height": 5570,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/pricing",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "A studio for applied minds."
+      ],
+      "height": 9434,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/about",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Book a strategy call."
+      ],
+      "height": 2527,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/book",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Tell us the work you want gone."
+      ],
+      "height": 4964,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/contact",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Privacy policy."
+      ],
+      "height": 3500,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/privacy",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Terms of engagement."
+      ],
+      "height": 3600,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/terms",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Cookie policy."
+      ],
+      "height": 3325,
+      "relight": [],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/cookies",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "AI strategy"
+      ],
+      "height": 5091,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services/ai-strategy",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Agent builds"
+      ],
+      "height": 5705,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services/agent-builds",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Workflow automation"
+      ],
+      "height": 4980,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services/workflow-automation",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Voice agents"
+      ],
+      "height": 5116,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services/voice-agents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Team training"
+      ],
+      "height": 4396,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/services/ai-training",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Support agent"
+      ],
+      "height": 4374,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents/support-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Sales agent"
+      ],
+      "height": 4374,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents/sales-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Finance agent"
+      ],
+      "height": 4374,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents/finance-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Voice agent"
+      ],
+      "height": 4392,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents/voice-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Research agent"
+      ],
+      "height": 4392,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/agents/research-agent",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "A front desk that never sleeps"
+      ],
+      "height": 3801,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work/northwind-dental",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Month-end in two days"
+      ],
+      "height": 3737,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work/ledgerly",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Support that scales with the season"
+      ],
+      "height": 3801,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work/oakline-home",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Research briefs in an hour"
+      ],
+      "height": 3743,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work/vantage-legal",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "broken": [],
+      "clientWidth": 375,
+      "h1": [
+        "Every lead answered in a minute"
+      ],
+      "height": 3713,
+      "relight": [
+        "loading"
+      ],
+      "scrollWidth": 375,
+      "url": "http://localhost:3065/en/work/brightpath-realty",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "device": "desktop",
+      "page": "home",
+      "slug": "",
+      "broken": [],
+      "clientWidth": 1430,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 993,
+      "relight": [
+        "ready",
+        "ready"
+      ],
+      "scrollWidth": 1430,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "assets/desktop-home.webp",
+      "width": 1430
+    },
+    {
+      "device": "desktop",
+      "page": "services",
+      "slug": "services",
+      "broken": [],
+      "clientWidth": 1430,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 993,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 1430,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "assets/desktop-services.webp",
+      "width": 1430
+    },
+    {
+      "device": "desktop",
+      "page": "case",
+      "slug": "work/northwind-dental",
+      "broken": [],
+      "clientWidth": 1430,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 993,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 1430,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "assets/desktop-case.webp",
+      "width": 1430
+    },
+    {
+      "device": "desktop",
+      "page": "contact",
+      "slug": "contact",
+      "broken": [],
+      "clientWidth": 1430,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 993,
+      "relight": [],
+      "scrollWidth": 1430,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "path": "assets/desktop-contact.webp",
+      "width": 1430
+    },
+    {
+      "device": "tablet",
+      "page": "home",
+      "slug": "",
+      "broken": [],
+      "clientWidth": 824,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 1166,
+      "relight": [
+        "ready",
+        "ready"
+      ],
+      "scrollWidth": 824,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        834,
+        1180
+      ],
+      "path": "assets/tablet-home.webp",
+      "width": 824
+    },
+    {
+      "device": "tablet",
+      "page": "services",
+      "slug": "services",
+      "broken": [],
+      "clientWidth": 824,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 1166,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 824,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        834,
+        1180
+      ],
+      "path": "assets/tablet-services.webp",
+      "width": 824
+    },
+    {
+      "device": "tablet",
+      "page": "case",
+      "slug": "work/northwind-dental",
+      "broken": [],
+      "clientWidth": 824,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 1166,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 824,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        834,
+        1180
+      ],
+      "path": "assets/tablet-case.webp",
+      "width": 824
+    },
+    {
+      "device": "tablet",
+      "page": "contact",
+      "slug": "contact",
+      "broken": [],
+      "clientWidth": 824,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 1166,
+      "relight": [],
+      "scrollWidth": 824,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        834,
+        1180
+      ],
+      "path": "assets/tablet-contact.webp",
+      "width": 824
+    },
+    {
+      "device": "mobile",
+      "page": "home",
+      "slug": "",
+      "broken": [],
+      "clientWidth": 380,
+      "h1": [
+        "让智慧投入工作"
+      ],
+      "height": 822,
+      "relight": [
+        "ready",
+        "ready"
+      ],
+      "scrollWidth": 380,
+      "url": "http://localhost:3065/",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "assets/mobile-home.webp",
+      "width": 380
+    },
+    {
+      "device": "mobile",
+      "page": "services",
+      "slug": "services",
+      "broken": [],
+      "clientWidth": 380,
+      "h1": [
+        "让 AI 投入工作的五种方式"
+      ],
+      "height": 822,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 380,
+      "url": "http://localhost:3065/services",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "assets/mobile-services.webp",
+      "width": 380
+    },
+    {
+      "device": "mobile",
+      "page": "case",
+      "slug": "work/northwind-dental",
+      "broken": [],
+      "clientWidth": 380,
+      "h1": [
+        "永不停歇的接待台"
+      ],
+      "height": 822,
+      "relight": [
+        "ready"
+      ],
+      "scrollWidth": 380,
+      "url": "http://localhost:3065/work/northwind-dental",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "assets/mobile-case.webp",
+      "width": 380
+    },
+    {
+      "device": "mobile",
+      "page": "contact",
+      "slug": "contact",
+      "broken": [],
+      "clientWidth": 380,
+      "h1": [
+        "告诉我们想交给智能体的工作"
+      ],
+      "height": 822,
+      "relight": [],
+      "scrollWidth": 380,
+      "url": "http://localhost:3065/contact",
+      "viewport": [
+        390,
+        844
+      ],
+      "path": "assets/mobile-contact.webp",
+      "width": 380
+    }
+  ],
+  "interactions": [
+    {
+      "device": "tablet",
+      "before": {
+        "case": "1 / 5 · 永不停歇的接待台",
+        "detail": "none"
+      },
+      "running": {
+        "detail": "matrix(2.02549, 0, 0, 2.02549, 0, 0)"
+      },
+      "paper": {
+        "transform": "transform: rotateY(-44.4366deg);"
+      },
+      "end": {
+        "case": "2 / 5 · 两天完成月末结账",
+        "detail": "matrix(2.25, 0, 0, 2.25, 0, 0)",
+        "questions": 2,
+        "review": "Rafael Ortega",
+        "service": "团队培训",
+        "stage": "运行 每周持续"
+      }
+    },
+    {
+      "device": "mobile",
+      "before": {
+        "case": "1 / 5 · 永不停歇的接待台",
+        "detail": "none"
+      },
+      "running": {
+        "detail": "matrix(2.02897, 0, 0, 2.02897, 0, 0)"
+      },
+      "paper": {
+        "transform": "transform: rotateY(-43.9754deg);"
+      },
+      "end": {
+        "case": "2 / 5 · 两天完成月末结账",
+        "detail": "matrix(2.25, 0, 0, 2.25, 0, 0)",
+        "questions": 2,
+        "review": "Rafael Ortega",
+        "service": "团队培训",
+        "stage": "运行 每周持续"
+      }
+    }
+  ],
+  "scroll": [
+    {
+      "device": "desktop",
+      "bottom": {
+        "footer": {
+          "bottom": 1000.2187957763672,
+          "height": 80.66667175292969,
+          "left": 75,
+          "right": 1355,
+          "top": 919.5521240234376,
+          "width": 1280,
+          "x": 75,
+          "y": 919.5521240234376
+        },
+        "scroll": 1940,
+        "scrollbar": "rgb(170, 164, 151) rgb(234, 230, 221)",
+        "viewport": [
+          1440,
+          1000
+        ]
+      },
+      "after": {
+        "bodyOverflow": "",
+        "scroll": 940
+      }
+    },
+    {
+      "device": "tablet",
+      "bottom": {
+        "footer": {
+          "bottom": 1180.1875457763672,
+          "height": 80.66667175292969,
+          "left": 32,
+          "right": 792,
+          "top": 1099.5208740234375,
+          "width": 760,
+          "x": 32,
+          "y": 1099.5208740234375
+        },
+        "scroll": 1854.6666259765625,
+        "scrollbar": "rgb(170, 164, 151) rgb(234, 230, 221)",
+        "viewport": [
+          834,
+          1180
+        ]
+      },
+      "after": {
+        "bodyOverflow": "",
+        "scroll": 674.6666870117188
+      }
+    },
+    {
+      "device": "mobile",
+      "bottom": {
+        "footer": {
+          "bottom": 843.8333587646484,
+          "height": 135.6666717529297,
+          "left": 20,
+          "right": 360,
+          "top": 708.1666870117188,
+          "width": 340,
+          "x": 20,
+          "y": 708.1666870117188
+        },
+        "scroll": 2256,
+        "scrollbar": "rgb(170, 164, 151) rgb(234, 230, 221)",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "bodyOverflow": "",
+        "scroll": 1412
+      }
+    }
+  ],
+  "booking": {
+    "viewport": [
+      390,
+      844
+    ],
+    "flow": [
+      "required service validation",
+      "voice-agents",
+      "team 11–50",
+      "80 hours = $187,200",
+      "Zendesk",
+      "ten PT weekdays from tomorrow",
+      "09:00 PT",
+      "local-only validation"
+    ],
+    "status": [
+      "信息校验完成校验通过。信息未发送或保存，也未创建预约。重新填写"
+    ]
+  },
+  "additionalVerified": [
+    "PC 细节取景从1到1.65的运行与终态",
+    "PC服务切换到语音智能体及联动报价",
+    "PC流程设计标记移动与终态",
+    "PC智能体画廊切到研究智能体",
+    "PC案例簿双面翻页与1→2计数",
+    "PC手记Hannah→Rafael",
+    "PC照片放大镜实际显示，方向键可移动",
+    "机器人指针左右光照截图",
+    "手机菜单焦点进入、锁滚与导航后恢复",
+    "联系表单真实本地校验终态",
+    "语言切换保留服务深层路径、ref=demo与quiver-main锚点",
+    "行业与服务交叉零结果、反馈与重置"
+  ],
+  "limits": [
+    "截图不替代全部动效逐帧对齐",
+    "CSS设备视口不代表真实移动硬件触控验证",
+    "宿主模拟设备框尚未验收"
+  ]
+}

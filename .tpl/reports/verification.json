@@ -1,0 +1,100 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-11-03T13:31:04.868Z",
+  "sourceCommit": null,
+  "sourceDigest": "6e63d1502dc7ebd9f5ee907d7c4defdcd7678cef70b734269c53cbe2923f1228",
+  "environment": {
+    "platform": "linux (local WSL; Linux filesystem)",
+    "arch": "x64",
+    "node": "24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "install",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T13:29:46.972Z",
+      "finishedAt": "2026-11-03T13:29:48.183Z"
+    },
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T13:29:48.187Z",
+      "finishedAt": "2026-11-03T13:29:50.264Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T13:29:50.267Z",
+      "finishedAt": "2026-11-03T13:29:53.274Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T13:29:53.278Z",
+      "finishedAt": "2026-11-03T13:29:54.139Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-03T13:29:54.141Z",
+      "finishedAt": "2026-11-03T13:30:15.674Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "checkedAt": "2026-11-03T13:30:16.668Z",
+      "stopped": true
+    }
+  ],
+  "limitations": [
+    "passed仅指冻结安装、类型、ESLint、单元测试、构建及生产候选HTTP/素材摘要检查；任务完整动效对照仍以motion.json的incomplete为准。",
+    "27个业务页面，中文与英文共54个路由；原站没有博客，十二张展示图以案例详情作为内容页。",
+    "原站有两个法线光照画布和一个照片放大镜画布，未发现视频，未以生成图片替换原素材。",
+    "默认中文，字体与字号遵循模板规范，因此与原站大衬线标题存在有意差异。三项政策按本地演示行为编写；表单不发送、不保存或创建预约。",
+    "参考设计与素材未取得商业再分发许可，listed=false。尚未发布源码ZIP，未部署，宿主联调另行记录。",
+    "完整三端原站曲线、光照、循环暂停恢复、真实系统减少动态效果与宿主设备框尚未全部验收，不声称完整复刻完成。"
+  ]
+}

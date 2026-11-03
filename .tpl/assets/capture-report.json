@@ -1,0 +1,263 @@
+[
+  {
+    "device": "desktop",
+    "page": "home",
+    "slug": "",
+    "broken": [],
+    "clientWidth": 1430,
+    "h1": [
+      "让智慧投入工作"
+    ],
+    "height": 993,
+    "relight": [
+      "ready",
+      "ready"
+    ],
+    "scrollWidth": 1430,
+    "url": "http://localhost:3065/",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "path": "assets/desktop-home.webp",
+    "width": 1430
+  },
+  {
+    "device": "desktop",
+    "page": "services",
+    "slug": "services",
+    "broken": [],
+    "clientWidth": 1430,
+    "h1": [
+      "让 AI 投入工作的五种方式"
+    ],
+    "height": 993,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 1430,
+    "url": "http://localhost:3065/services",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "path": "assets/desktop-services.webp",
+    "width": 1430
+  },
+  {
+    "device": "desktop",
+    "page": "case",
+    "slug": "work/northwind-dental",
+    "broken": [],
+    "clientWidth": 1430,
+    "h1": [
+      "永不停歇的接待台"
+    ],
+    "height": 993,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 1430,
+    "url": "http://localhost:3065/work/northwind-dental",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "path": "assets/desktop-case.webp",
+    "width": 1430
+  },
+  {
+    "device": "desktop",
+    "page": "contact",
+    "slug": "contact",
+    "broken": [],
+    "clientWidth": 1430,
+    "h1": [
+      "告诉我们想交给智能体的工作"
+    ],
+    "height": 993,
+    "relight": [],
+    "scrollWidth": 1430,
+    "url": "http://localhost:3065/contact",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "path": "assets/desktop-contact.webp",
+    "width": 1430
+  },
+  {
+    "device": "tablet",
+    "page": "home",
+    "slug": "",
+    "broken": [],
+    "clientWidth": 824,
+    "h1": [
+      "让智慧投入工作"
+    ],
+    "height": 1166,
+    "relight": [
+      "ready",
+      "ready"
+    ],
+    "scrollWidth": 824,
+    "url": "http://localhost:3065/",
+    "viewport": [
+      834,
+      1180
+    ],
+    "path": "assets/tablet-home.webp",
+    "width": 824
+  },
+  {
+    "device": "tablet",
+    "page": "services",
+    "slug": "services",
+    "broken": [],
+    "clientWidth": 824,
+    "h1": [
+      "让 AI 投入工作的五种方式"
+    ],
+    "height": 1166,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 824,
+    "url": "http://localhost:3065/services",
+    "viewport": [
+      834,
+      1180
+    ],
+    "path": "assets/tablet-services.webp",
+    "width": 824
+  },
+  {
+    "device": "tablet",
+    "page": "case",
+    "slug": "work/northwind-dental",
+    "broken": [],
+    "clientWidth": 824,
+    "h1": [
+      "永不停歇的接待台"
+    ],
+    "height": 1166,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 824,
+    "url": "http://localhost:3065/work/northwind-dental",
+    "viewport": [
+      834,
+      1180
+    ],
+    "path": "assets/tablet-case.webp",
+    "width": 824
+  },
+  {
+    "device": "tablet",
+    "page": "contact",
+    "slug": "contact",
+    "broken": [],
+    "clientWidth": 824,
+    "h1": [
+      "告诉我们想交给智能体的工作"
+    ],
+    "height": 1166,
+    "relight": [],
+    "scrollWidth": 824,
+    "url": "http://localhost:3065/contact",
+    "viewport": [
+      834,
+      1180
+    ],
+    "path": "assets/tablet-contact.webp",
+    "width": 824
+  },
+  {
+    "device": "mobile",
+    "page": "home",
+    "slug": "",
+    "broken": [],
+    "clientWidth": 380,
+    "h1": [
+      "让智慧投入工作"
+    ],
+    "height": 822,
+    "relight": [
+      "ready",
+      "ready"
+    ],
+    "scrollWidth": 380,
+    "url": "http://localhost:3065/",
+    "viewport": [
+      390,
+      844
+    ],
+    "path": "assets/mobile-home.webp",
+    "width": 380
+  },
+  {
+    "device": "mobile",
+    "page": "services",
+    "slug": "services",
+    "broken": [],
+    "clientWidth": 380,
+    "h1": [
+      "让 AI 投入工作的五种方式"
+    ],
+    "height": 822,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 380,
+    "url": "http://localhost:3065/services",
+    "viewport": [
+      390,
+      844
+    ],
+    "path": "assets/mobile-services.webp",
+    "width": 380
+  },
+  {
+    "device": "mobile",
+    "page": "case",
+    "slug": "work/northwind-dental",
+    "broken": [],
+    "clientWidth": 380,
+    "h1": [
+      "永不停歇的接待台"
+    ],
+    "height": 822,
+    "relight": [
+      "ready"
+    ],
+    "scrollWidth": 380,
+    "url": "http://localhost:3065/work/northwind-dental",
+    "viewport": [
+      390,
+      844
+    ],
+    "path": "assets/mobile-case.webp",
+    "width": 380
+  },
+  {
+    "device": "mobile",
+    "page": "contact",
+    "slug": "contact",
+    "broken": [],
+    "clientWidth": 380,
+    "h1": [
+      "告诉我们想交给智能体的工作"
+    ],
+    "height": 822,
+    "relight": [],
+    "scrollWidth": 380,
+    "url": "http://localhost:3065/contact",
+    "viewport": [
+      390,
+      844
+    ],
+    "path": "assets/mobile-contact.webp",
+    "width": 380
+  }
+]

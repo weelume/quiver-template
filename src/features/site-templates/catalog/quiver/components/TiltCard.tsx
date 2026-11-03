@@ -1,0 +1,4 @@
+'use client'
+import {useRef,type ReactNode} from 'react'
+import {motion,useMotionValue,useSpring,useReducedMotion} from 'framer-motion'
+export function TiltCard({children,className=''}:{children:ReactNode;className?:string}){const ref=useRef<HTMLDivElement>(null),x=useMotionValue(0),y=useMotionValue(0),rx=useSpring(x,{stiffness:220,damping:25}),ry=useSpring(y,{stiffness:220,damping:25}),reduce=useReducedMotion();return <motion.div ref={ref} className={`qv-tilt-card ${className}`} style={{rotateX:rx,rotateY:ry,transformPerspective:900}} onPointerMove={event=>{const rect=event.currentTarget.getBoundingClientRect(),px=(event.clientX-rect.left)/rect.width,py=(event.clientY-rect.top)/rect.height;event.currentTarget.style.setProperty('--qv-pointer-x',`${px*100}%`);event.currentTarget.style.setProperty('--qv-pointer-y',`${py*100}%`);if(!reduce){x.set((.5-py)*7);y.set((px-.5)*7)}}} onPointerLeave={()=>{x.set(0);y.set(0)}}>{children}</motion.div>}

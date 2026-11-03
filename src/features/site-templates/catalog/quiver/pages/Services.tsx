@@ -1,0 +1,11 @@
+'use client'
+import type {SiteTemplatePageProps} from '../../../types'
+import {text} from '../config'
+import {headings} from '../content/headings'
+import {Shell} from '../components/Shell'
+import {PageIntro} from '../components/PageIntro'
+import {ServicesDisplay} from '../components/ServicesDisplay'
+import {Process} from '../components/Process'
+import {PricingCards} from '../components/PricingCards'
+import {FAQ} from '../components/FAQ'
+export default function Services(props:SiteTemplatePageProps){return <Shell {...props} commission><PageIntro eyebrow={text('服务','Services')} title={headings.services} intro={headings.servicesIntro}/><ServicesDisplay/><Process/><PricingCards/><FAQ/></Shell>}

@@ -1,0 +1,11 @@
+'use client'
+import type {SiteTemplatePageProps} from '../../../types'
+import {text} from '../config'
+import {headings} from '../content/headings'
+import {Shell} from '../components/Shell'
+import {PageIntro} from '../components/PageIntro'
+import {Process as FloorPlan} from '../components/Process'
+import {Metrics} from '../components/Metrics'
+import {DetailView} from '../components/DetailView'
+import {FAQ} from '../components/FAQ'
+export default function Process(props:SiteTemplatePageProps){return <Shell {...props}><PageIntro eyebrow={text('流程','Process')} title={headings.processPage} intro={headings.processIntro}/><FloorPlan/><DetailView/><Metrics/><FAQ/></Shell>}

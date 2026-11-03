@@ -1,0 +1,3 @@
+/** 日期以工作室 PT 时区的日历日计算，避免用户时区改变可选工作日。 */
+export function availableDays(now:Date=new Date()):string[]{const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now),part=(type:string)=>parts.find(item=>item.type===type)?.value;const date=new Date(Date.UTC(Number(part('year')),Number(part('month'))-1,Number(part('day')))),days:string[]=[];while(days.length<10){date.setUTCDate(date.getUTCDate()+1);if(date.getUTCDay()!==0&&date.getUTCDay()!==6)days.push(date.toISOString().slice(0,10))}return days}
+export function annualEstimate(hours:number,weeks:number,hourlyRate:number){return hours*weeks*hourlyRate}

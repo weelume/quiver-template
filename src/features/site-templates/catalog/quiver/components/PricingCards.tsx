@@ -1,0 +1,10 @@
+'use client'
+import Link from 'next/link'
+import {asset,art,text} from '../config'
+import {useQuiver} from '../context'
+import {plans} from '../content/common'
+import {headings} from '../content/headings'
+import {ui} from '../content/ui'
+import {SectionHeading} from './SectionHeading'
+import {TiltCard} from './TiltCard'
+export function PricingCards(){const{t,href}=useQuiver();if(!plans.length)return null;return <section className="qv-section qv-pricing"><div className="qv-container"><SectionHeading eyebrow={text('10 · 合作方案','10 · Pricing')} title={headings.pricing} description={headings.pricingIntro}/><div className="qv-price-grid">{plans.map((plan,i)=><TiltCard key={plan.id} className={`qv-pass qv-pass-${i}`}><article aria-label={`${t(plan.title)} $${plan.price.toLocaleString('en-US')} ${t(plan.period)}`}><div className="qv-pass-top"><span>{t(text('{{brand}} 通行证','{{brand}} pass'))}</span><span>{i===1?t(text('热门选择','Most chosen')):'2026'}</span></div>{i===1&&<figure><img src={asset(art.buildTeam)} alt={t(text('智能体构建团队','The build team'))}/><figcaption>01 · {t(text('构建团队','The build team'))}</figcaption></figure>}<h3>{t(plan.title)}</h3><p>{t(plan.intro)}</p><div className="qv-price"><strong>${plan.price.toLocaleString('en-US')}</strong><span>{t(plan.period)}</span></div><ul>{plan.features.map(feature=><li key={feature.en}>{t(feature)}</li>)}</ul><Link className={`qv-button ${i===1?'qv-button-accent':'qv-button-dark'}`} href={href('book')+'?plan='+plan.id}>{t(plan.cta)}</Link><div className="qv-pass-stub"><span>{plan.number}</span><div className="qv-barcode" aria-hidden="true"/><span>{t(text('2026 年有效','Valid 2026'))}</span></div></article></TiltCard>)}</div><div className="qv-pass-caption"><p className="qv-caption">{t(text('选择通行证 · 固定费用 · 无额外启动费','Pick a pass · Fixed price · No setup fees'))}</p><p className="qv-caption">{plans[0].number} – {plans.at(-1)?.number}</p></div><p className="qv-form-note">{t(ui.demoMetric)}</p></div></section>}

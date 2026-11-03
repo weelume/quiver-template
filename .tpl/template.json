@@ -1,0 +1,315 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "quiver",
+  "version": "1.0.0",
+  "name": "Quiver · AI 智能体工作室",
+  "gitUrl": "https://github.com/weelume/quiver-template",
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "AI 智能体",
+    "实时光照",
+    "案例簿翻页",
+    "双语",
+    "PC / iPad / H5"
+  ],
+  "summary": "27 个双语页面，包含五项服务、五类智能体、五组案例、流程、价格、团队、四步预约、联系与三项政策。",
+  "accentColor": "#d94a2f",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Quiver desktop home",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993
+    },
+    {
+      "src": "assets/desktop-services.webp",
+      "alt": "Quiver desktop services",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993
+    },
+    {
+      "src": "assets/desktop-case.webp",
+      "alt": "Quiver desktop case",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Quiver desktop contact",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Quiver tablet home",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166
+    },
+    {
+      "src": "assets/tablet-services.webp",
+      "alt": "Quiver tablet services",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166
+    },
+    {
+      "src": "assets/tablet-case.webp",
+      "alt": "Quiver tablet case",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Quiver tablet contact",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Quiver mobile home",
+      "device": "mobile",
+      "width": 380,
+      "height": 822
+    },
+    {
+      "src": "assets/mobile-services.webp",
+      "alt": "Quiver mobile services",
+      "device": "mobile",
+      "width": 380,
+      "height": 822
+    },
+    {
+      "src": "assets/mobile-case.webp",
+      "alt": "Quiver mobile case",
+      "device": "mobile",
+      "width": 380,
+      "height": 822
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Quiver mobile contact",
+      "device": "mobile",
+      "width": 380,
+      "height": 822
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "services",
+          "title": "服务",
+          "localizedTitles": {
+            "en": "Services"
+          }
+        },
+        {
+          "slug": "agents",
+          "title": "智能体",
+          "localizedTitles": {
+            "en": "Agents"
+          }
+        },
+        {
+          "slug": "work",
+          "title": "精选案例",
+          "localizedTitles": {
+            "en": "Work"
+          }
+        },
+        {
+          "slug": "process",
+          "title": "流程",
+          "localizedTitles": {
+            "en": "Process"
+          }
+        },
+        {
+          "slug": "pricing",
+          "title": "价格",
+          "localizedTitles": {
+            "en": "Pricing"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "book",
+          "title": "预约交流",
+          "localizedTitles": {
+            "en": "Book a call"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "使用条款",
+          "localizedTitles": {
+            "en": "Terms"
+          }
+        },
+        {
+          "slug": "cookies",
+          "title": "Cookie 政策",
+          "localizedTitles": {
+            "en": "Cookies"
+          }
+        },
+        {
+          "slug": "services/ai-strategy",
+          "title": "AI 策略",
+          "localizedTitles": {
+            "en": "AI strategy"
+          }
+        },
+        {
+          "slug": "services/agent-builds",
+          "title": "智能体构建",
+          "localizedTitles": {
+            "en": "Agent builds"
+          }
+        },
+        {
+          "slug": "services/workflow-automation",
+          "title": "工作流自动化",
+          "localizedTitles": {
+            "en": "Workflow automation"
+          }
+        },
+        {
+          "slug": "services/voice-agents",
+          "title": "语音智能体",
+          "localizedTitles": {
+            "en": "Voice agents"
+          }
+        },
+        {
+          "slug": "services/ai-training",
+          "title": "团队培训",
+          "localizedTitles": {
+            "en": "Team training"
+          }
+        },
+        {
+          "slug": "agents/support-agent",
+          "title": "客服智能体",
+          "localizedTitles": {
+            "en": "Support agent"
+          }
+        },
+        {
+          "slug": "agents/sales-agent",
+          "title": "销售智能体",
+          "localizedTitles": {
+            "en": "Sales agent"
+          }
+        },
+        {
+          "slug": "agents/finance-agent",
+          "title": "财务智能体",
+          "localizedTitles": {
+            "en": "Finance agent"
+          }
+        },
+        {
+          "slug": "agents/voice-agent",
+          "title": "语音智能体",
+          "localizedTitles": {
+            "en": "Voice agent"
+          }
+        },
+        {
+          "slug": "agents/research-agent",
+          "title": "研究智能体",
+          "localizedTitles": {
+            "en": "Research agent"
+          }
+        },
+        {
+          "slug": "work/northwind-dental",
+          "title": "永不停歇的接待台",
+          "localizedTitles": {
+            "en": "A front desk that never sleeps"
+          }
+        },
+        {
+          "slug": "work/ledgerly",
+          "title": "两天完成月末结账",
+          "localizedTitles": {
+            "en": "Month-end in two days"
+          }
+        },
+        {
+          "slug": "work/oakline-home",
+          "title": "随旺季成长的客服",
+          "localizedTitles": {
+            "en": "Support that scales with the season"
+          }
+        },
+        {
+          "slug": "work/vantage-legal",
+          "title": "一小时完成研究简报",
+          "localizedTitles": {
+            "en": "Research briefs in an hour"
+          }
+        },
+        {
+          "slug": "work/brightpath-realty",
+          "title": "一分钟回应每条线索",
+          "localizedTitles": {
+            "en": "Every lead answered in a minute"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "源码、参考设计、图片和字体分别说明；参考素材未确认商业再分发授权。",
+    "redistributionAllowed": false
+  }
+}

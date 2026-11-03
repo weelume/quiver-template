@@ -1,0 +1,10 @@
+'use client'
+import Link from 'next/link'
+import {asset,art,text} from '../config'
+import {useQuiver} from '../context'
+import {clients} from '../content/common'
+import {ui} from '../content/ui'
+import {headings} from '../content/headings'
+import {SectionHeading} from './SectionHeading'
+import {TiltCard} from './TiltCard'
+export function ClientsWall(){const{t,href}=useQuiver(),plate=(client:typeof clients[number])=><TiltCard key={client.name} className="qv-client-plate"><Link href={href('work')}><strong>{client.name}</strong><span className="qv-caption">{t(client.role)} · {t(client.result)}</span><span className="qv-plate-etching" aria-hidden="true">{client.name}</span></Link></TiltCard>;return <section className="qv-section qv-clients"><div className="qv-container"><div className="qv-heading-row"><SectionHeading eyebrow={text('02 · 客户','02 · Clients')} title={headings.clients} description={headings.clientsIntro}/><Link className="qv-text-link" href={href('work')}>{t(ui.allWork)}</Link></div><div className="qv-clients-wall">{clients.slice(0,4).map(plate)}<figure className="qv-signoff-photo"><img src={asset(art.signoff)} alt={t(text('工程师核查即将运行的智能体','An engineer signing off a live agent build'))}/><figcaption><span>01 · {t(text('确认交付','Sign-off'))}</span><strong>{t(text('每个智能体背后都有一位负责人','Every agent ships with a person on it'))}</strong><span>{t(text('工作室 · 旧金山','Studio · San Francisco'))}</span></figcaption></figure>{clients.slice(4).map(plate)}</div><p className="qv-caption qv-display-hint">{t(text('指向铭牌 让它亮起来','Point at a plate to light it'))}</p></div></section>}
