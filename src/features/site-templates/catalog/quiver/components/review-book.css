@@ -1,0 +1,19 @@
+.quiver .qv-review-book{position:relative;margin-top:50px;perspective:3600px;touch-action:pan-y}
+.quiver .qv-review-shift{position:relative;transform-style:preserve-3d;perspective:3600px}
+.quiver .qv-review-book .qv-note-card{display:grid;grid-template-columns:1fr 1fr;background:none;border:0;box-shadow:none;min-height:510px;transform-style:preserve-3d}
+.quiver .qv-note-base-client{grid-column:1;grid-row:1;position:relative;background:var(--qv-paper-light)}
+.quiver .qv-note-base-client>.qv-note-side{height:100%;border-left:0;border-right:1px dashed var(--qv-line)}
+.quiver .qv-review-book .qv-note-body{grid-column:2;grid-row:1;background:var(--qv-paper-light);display:flex;flex-direction:column}
+.quiver .qv-note-signature{margin-top:auto;padding-top:22px}
+.quiver .qv-signature-draw{display:block;width:min(100%,320px);overflow:visible;clip-path:inset(0 100% 0 0);animation:qv-signature-wipe 1.7s cubic-bezier(.5,0,.3,1) .35s both}
+.quiver .qv-signature-draw text{font-size:32px;font-family:QuiverPoppins,QuiverMi,sans-serif;font-style:italic;fill:transparent;stroke:#1f2a55;stroke-width:.7;stroke-dasharray:420;stroke-dashoffset:420;animation:qv-signature-pen 1.8s cubic-bezier(.5,0,.3,1) .35s both,qv-signature-ink .7s ease 1.8s both}
+.quiver .qv-signature-draw path{fill:none;stroke:#1f2a55;stroke-width:1.6;stroke-linecap:round;stroke-dasharray:900;stroke-dashoffset:900;animation:qv-signature-pen 1s cubic-bezier(.5,0,.3,1) 1.7s both}
+.quiver .qv-review-book .qv-note-seal{position:relative;right:auto;bottom:auto;display:flex;flex-direction:column;justify-content:center;text-align:center;color:var(--qv-accent);font-size:11px;line-height:1.6;width:max-content;height:auto;min-width:100px;margin-top:25px;align-self:flex-end;gap:3px;padding:9px 14px;border:2px solid currentColor;outline:1px solid currentColor;outline-offset:3px;border-radius:3px;transform:rotate(-4deg);animation:qv-note-stamp .55s cubic-bezier(.3,1.6,.5,1) .55s both}
+.quiver .qv-review-cover{position:absolute;left:50%;top:0;bottom:0;width:50%;transform-origin:left center;transform-style:preserve-3d;z-index:5}
+.quiver .qv-review-cover-front,.quiver .qv-review-cover-back{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:4px;background:var(--qv-paper-light)}
+.quiver .qv-review-cover-front{inset:-12px -14px -16px 0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;border-radius:2px 8px 8px 2px;background:radial-gradient(ellipse at 40% 30%,#34363b,#26282c 70%,#1e2023);color:#b4b7bc;box-shadow:inset 6px 0 10px #0008,inset -1px 0 #ffffff14,0 0 0 1px #ffffff0f}
+.quiver .qv-review-cover-front>span{font-size:76px;line-height:1}.quiver .qv-review-cover-front>strong{font-size:30px;font-weight:400;font-style:italic}.quiver .qv-review-cover-front>small{font-size:10px;letter-spacing:.1em}
+.quiver .qv-review-cover-back{transform:rotateY(180deg);color:var(--qv-ink);--qv-muted:#706e64;--qv-line:rgba(14,14,16,.2)}.quiver .qv-review-cover-back>.qv-note-side{height:100%;border:0}
+@keyframes qv-signature-wipe{to{clip-path:inset(0 0 0 0)}}@keyframes qv-signature-pen{to{stroke-dashoffset:0}}@keyframes qv-signature-ink{to{fill:#1f2a55}}@keyframes qv-note-stamp{from{opacity:0;scale:1.5}to{opacity:1;scale:1}}
+@media(max-width:700px){.quiver .qv-review-book .qv-note-card{grid-template-columns:1fr;min-height:0}.quiver .qv-note-base-client{grid-column:1;grid-row:1}.quiver .qv-review-book .qv-note-body{grid-column:1;grid-row:2}.quiver .qv-note-base-client>.qv-note-side{border:0}.quiver .qv-review-book .qv-note-seal{align-self:flex-start}.quiver .qv-signature-draw text{font-size:30px}}
+@media(prefers-reduced-motion:reduce){.quiver .qv-signature-draw{animation:none;clip-path:none}.quiver .qv-signature-draw text{animation:none;stroke-dashoffset:0;fill:#1f2a55}.quiver .qv-signature-draw path{animation:none;stroke-dashoffset:0}.quiver .qv-review-book .qv-note-seal{animation:none}}

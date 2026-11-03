@@ -1,0 +1,226 @@
+{
+  "checkedAt": "2026-11-03T17:10:29.722Z",
+  "chapters": {
+    "checkedAt": "2026-11-03T17:09:13.445Z",
+    "note": "状态为操作后的即时采样，部分仍在运行；书本反向由独立后续样本证明",
+    "samples": [
+      {
+        "caption": "01 / 03 · 细节",
+        "innerScroll": 0,
+        "kind": "detail",
+        "loupe": "width: 308.501px; height: 308.501px; transform: translateX(33.5786px) translateY(23.3695px);",
+        "pin": 0,
+        "scroll": 2648.666748046875
+      },
+      {
+        "caption": "02 / 03 · 细节",
+        "innerScroll": 0,
+        "kind": "detail",
+        "loupe": "width: 308.501px; height: 308.501px; transform: translateX(304.915px) translateY(-24.9951px);",
+        "pin": 0,
+        "scroll": 3080
+      },
+      {
+        "caption": "03 / 03 · 细节",
+        "innerScroll": 0,
+        "kind": "detail",
+        "loupe": "width: 308.501px; height: 308.501px; transform: translateX(149.442px) translateY(67.5433px);",
+        "pin": 0,
+        "scroll": 3731.333251953125
+      },
+      {
+        "innerScroll": 0,
+        "kind": "process",
+        "label": "审计 第 1 周",
+        "pin": 0
+      },
+      {
+        "innerScroll": 0,
+        "kind": "process",
+        "label": "设计 第 2 周",
+        "pin": 0
+      },
+      {
+        "innerScroll": 0,
+        "kind": "process",
+        "label": "构建 第 3–5 周",
+        "pin": 0
+      },
+      {
+        "innerScroll": 0,
+        "kind": "process",
+        "label": "运行 每周持续",
+        "pin": 0
+      },
+      {
+        "innerScroll": 0,
+        "kind": "gallery",
+        "label": "客服智能体",
+        "pin": 0,
+        "track": "left: 900px; transform: translateX(-26.1465px);"
+      },
+      {
+        "innerScroll": 0,
+        "kind": "gallery",
+        "label": "销售智能体",
+        "pin": 0,
+        "track": "left: 900px; transform: translateX(-546.341px);"
+      },
+      {
+        "innerScroll": 0,
+        "kind": "gallery",
+        "label": "财务智能体",
+        "pin": 0,
+        "track": "left: 900px; transform: translateX(-1125.85px);"
+      },
+      {
+        "innerScroll": 0,
+        "kind": "gallery",
+        "label": "语音智能体",
+        "pin": 0,
+        "track": "left: 900px; transform: translateX(-1715.51px);"
+      },
+      {
+        "innerScroll": 0,
+        "kind": "gallery",
+        "label": "研究智能体",
+        "pin": 0,
+        "track": "left: 900px; transform: translateX(-2312.2px);"
+      },
+      {
+        "kind": "book-scroll-reverse",
+        "before": {
+          "page": "2 / 5 · 两天完成月末结账",
+          "rotation": "transform: rotateY(-179.904deg);",
+          "scroll": 15340.6669921875
+        },
+        "after": {
+          "innerScroll": 0,
+          "page": "2 / 5 · 两天完成月末结账",
+          "rotation": "transform: rotateY(-179.904deg);",
+          "scroll": 15340.6669921875
+        }
+      }
+    ]
+  },
+  "responsive": [
+    {
+      "broken": 0,
+      "cases": 5,
+      "client": 380,
+      "cover": 0,
+      "details": 3,
+      "gallery": 5,
+      "process": 4,
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 380
+    },
+    {
+      "broken": 0,
+      "cases": 5,
+      "client": 310,
+      "cover": 0,
+      "details": 3,
+      "gallery": 5,
+      "process": 4,
+      "viewport": [
+        320,
+        844
+      ],
+      "width": 310
+    },
+    {
+      "broken": 0,
+      "cases": 0,
+      "client": 824,
+      "cover": 1,
+      "details": 0,
+      "gallery": 0,
+      "process": 0,
+      "viewport": [
+        834,
+        1180
+      ],
+      "width": 824
+    },
+    {
+      "broken": 0,
+      "cases": 0,
+      "client": 1430,
+      "cover": 1,
+      "details": 0,
+      "gallery": 0,
+      "process": 0,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "width": 1430
+    }
+  ],
+  "reviewFooter": {
+    "checkedAt": "2026-11-03T17:05:20.485Z",
+    "desktop": {
+      "mid": {
+        "cover": "transform: rotateY(-122.55deg);",
+        "scrollY": 19299.333984375,
+        "shift": "transform: translateX(-7.97913%);",
+        "top": 527.84375
+      },
+      "service": {
+        "image": "matrix3d(0.961262, 0, 0.275637, -0.000393768, 0, 1, 0, 0, -0.275637, 0, 0.961262, -0.00137323, 0, 0, 0, 1)",
+        "object": "transform: none;",
+        "panel": "智能体构建"
+      },
+      "footer": {
+        "commissionBottom": 179.29165649414062,
+        "footerTop": 179.2916717529297,
+        "max": 23485,
+        "scrollY": 23484.666015625
+      },
+      "footerContactLink": true
+    },
+    "mobile": {
+      "body": {
+        "bottom": 374.9270935058594,
+        "height": 386.7083435058594,
+        "left": 26.1260986328125,
+        "right": 366.1260986328125,
+        "top": -11.78125,
+        "width": 340,
+        "x": 26.1260986328125,
+        "y": -11.78125
+      },
+      "client": {
+        "bottom": -11.78125,
+        "height": 195.89584350585935,
+        "left": 26.1260986328125,
+        "right": 366.1260986328125,
+        "top": -207.67709350585935,
+        "width": 340,
+        "x": 26.1260986328125,
+        "y": -207.67709350585935
+      },
+      "cover": 0,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  "reverseBook": {
+    "from": {
+      "scrollY": 15340.6669921875,
+      "sheet": "rotateY(-179.904deg)"
+    },
+    "to": {
+      "scrollY": 15180.6669921875,
+      "sheet": "transform: rotateY(-133.824deg);"
+    },
+    "action": "原生Up键4次，未点击上一个案例"
+  }
+}
